@@ -1,6 +1,10 @@
 .wrapper {
   display: grid;
   grid-template-columns:  70% 30%;
+  /* grid-column-gap: 1em;
+  grid-row-gap: 1em; */
+  /* if i wanna set same gap for colums and rows */
+  grid-gap: 1em;
 }
 
 .wrapper > div {
